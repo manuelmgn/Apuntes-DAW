@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Solución de la tarea para ED01.</title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="generator" content="eXeLearning 2.5 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" /></head>
+<body class="exe-single-page"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<header id="header">
+<div id="headerContent">
+<h1>Solución de la tarea para ED01.</h1>
+</div>
+</header>
+<section id="main">
+<article class="node level-1-node" id="exe-node-0">
+<header class="nodeDecoration">
+<h1 id="exenode_0_SolucindelatareaparaED01" class="nodeTitle">Solución de la tarea para ED01.</h1>
+</header>
+<article class="iDevice_wrapper FreeTextfpdIdevice" id="id0-0">
+<div class="iDevice emphasis0">
+<div id="ta0_73" class="block iDevice_content">
+<p>Propuesta de proyecto de desarrollo <span lang="en">software</span>:</p>
+<p>Nuestro cliente desea trabajar con una aplicación, no de gran tamaño, que satisfaga los requerimientos de su labor diaria.</p>
+<p>La empresa también desea trabajar con <span lang="en">software</span> libre.</p>
+<p></p>
+<p><span style="text-decoration: underline;"><strong>Análisis de requerimientos:</strong></span></p>
+<p><strong>Funcionales: </strong></p>
+<p>La aplicación tendrá que ser capaz de realizar las siguientes funciones:</p>
+<ul class="lista_verificacion">
+<li>Consignar el código del trabajador que realiza la venta.</li>
+<li>Consignar todas las características del producto mediante una lectura del código de barras.</li>
+<li>Exportar los precios y operarlos.</li>
+<li>Ofrecer una factura.</li>
+<li>Operar con lector de tarjetas de crédito.</li>
+<li>Almacenar las ventas que hace cada trabajador.</li>
+<li>Controlar el stock de productos en el almacén.</li>
+</ul>
+<p><strong>No funcionales:</strong></p>
+<p>El tiempo de respuesta ha de ser lo más pequeño posible. No se admitirán simultaneidad de peticiones.</p>
+<p><strong>Recogida de información en el <acronym title="Especificación de Requisitos de Software">E.R.S.</acronym></strong></p>
+<p><span style="text-decoration: underline;"><strong>Diseño.</strong></span></p>
+<ul class="lista_verificacion">
+<li>A realizar las siguientes bases de datos:
+<ul>
+<li>De los vendedores: <acronym title="Documento Nacional de Identidad">DNI</acronym>, Nombre y apellidos, <abbr title="Número">Nº</abbr> de Seguridad Social, fecha de nacimiento, dirección, teléfono y localidad.</li>
+<li>De los productos: Código, marca, nombre comercial, precio, cantidad.</li>
+</ul>
+</li>
+<li>Selección del Lenguaje de Programación:
+<ul>
+<li>Se decide utilizar el lenguaje orientado a objetos Java.</li>
+</ul>
+</li>
+<li>Sistema Gestor de Base de Datos:
+<ul>
+<li>Se decide utilizar <span lang="en">MySQL</span>.</li>
+</ul>
+</li>
+</ul>
+<p><span style="text-decoration: underline;"><strong>Modelo de ciclo de vida.</strong></span></p>
+<p>Ya que la aplicación no es un gran proyecto <span lang="en">software</span> y dado que, presumiblemente, no tendremos que hacer prototipado ni incrementos, el modelo más adecuado es el de Ciclo de Vida en Cascada Realimentado.</p>
+<p>CODIFICACIÓN:<strong> <abbr title="Lenguaje de Programación">Lenguaje de programación </abbr> ELEGIDO, HERRAMIENTAS Y OBTENCIÓN DE LOS CÓDIGOS.</strong></p>
+<p>Planteamiento del algoritmo.</p>
+<p>Lenguaje de programación elegido → Java</p>
+<ul class="lista_verificacion">
+<li>Herramientas:
+<ul>
+<li>Máquina Virtual de java (<acronym lang="en" title="Java Virtual Machine">JVM</acronym>) sobre GNU/Linux.</li>
+<li>Java <span lang="en">Runtime Environment</span> (JRE) sobre GNU/Linux.</li>
+</ul>
+</li>
+<li>Obtención de código Fuente:
+<ul>
+<li>Utilización del editor de texto de Java.</li>
+</ul>
+</li>
+<li>Obtención de Código Objeto:
+<ul>
+<li>Compilación del lenguaje Java y obtención de los <span lang="en">bytecodes</span>.</li>
+<li>Instalación y configuración del <span lang="en">FrameWork Spring</span>.</li>
+</ul>
+</li>
+<li>Obtención del ejecutable:
+<ul>
+<li>Instalación y configuración de la JVM.</li>
+<li>Instalación y configuración del Java <span lang="en">Runtime Environment</span> (<acronym lang="en" title="Java Runtime Enviroment">JRE</acronym>).</li>
+</ul>
+</li>
+</ul>
+<p><strong>RESTANTES FASES DEL CICLO DE VIDA.</strong></p>
+<p><strong>Pruebas.</strong></p>
+<ul class="lista_verificacion">
+<li>Se realizarán pruebas:</li>
+<li>Unitarias, de cada módulo.</li>
+<li>De integración, del sistema completo.</li>
+</ul>
+<p>Se realizarán pruebas unitarias sobre cada módulo del programa.</p>
+<p>Cuando éstas se hayan abordado con éxito, pasaremos a las pruebas de integración sobre el programa completo.</p>
+<p><strong>Documentación.</strong></p>
+<ul class="lista_verificacion">
+<li>Iremos documentando todas las fases del proyecto, para obtener:</li>
+<li>Guía técnica: Para que sea posible el mantenimiento futuro de la aplicación. Quedará en manos de los analistas y desarrolladores.</li>
+<li>Guía de uso: La prepararemos para el dueño de la tienda y sus empleados.</li>
+<li>Guía de instalación. Todos los documentos donde conste cómo tiene que hacerse el proceso de instalación y configuración el <span lang="en">software</span>.</li>
+</ul>
+<p><strong>Explotación.</strong></p>
+<p>Instalación y configuración de la aplicación en el equipo del cliente.</p>
+<p>En este momento, se somete la aplicación a la Beta Test.</p>
+<p><strong>Mantenimiento.</strong></p>
+<p>Se cerrará un acuerdo de mantenimiento con el cliente.</p>
+</div>
+</div>
+</article>
+</article>
+</section>
+
+
+</div>
+<script type="text/javascript" src="_fpd_js.js"></script></body>
+</html>
