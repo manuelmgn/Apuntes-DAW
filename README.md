@@ -9,3 +9,5 @@ El contenido de cada asignatura y de unidad puede variar. Algunos temas pueden t
 - Asignaturas en las que el orden de los apuntes no coincida.
 
 En cualquier caso, el propósito de este repositorio es complementar a los muchos que ya existen en internet y, particularmente, en GitHub.
+
+Por supuesto, estoy abierto a modificaciones y ampliaciones del repositorio.
